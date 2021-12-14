@@ -1,0 +1,11 @@
+prog1    Start   1000
+aaaaa    rmo     a,s
+qwe	 equ	 100
+a        ldx     12
+         +ADD    @3
+         org     a
+	 org	 12,x
+         rmo     a,b
+	 ldx	 a-10-10
+	 ldx	 a/prog1
+         end     prog1

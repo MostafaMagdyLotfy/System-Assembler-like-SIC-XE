@@ -1,0 +1,30 @@
+			Name	Address
+
+			prog	1000
+
+			EOF	1007
+
+			ALPHA	1008
+
+			BETA	100b
+
+			GAMMA	100e
+
+			bb	1011
+
+
+Line no.	Address		Label		Op-Code		Operands	Comments
+1		1000		prog		START		1000		
+2		1000		      		+LDA		100		
+3		1000		      		LDX		#205		
+4		1003		      		+STA		@15		
+5		1003		      		rmo		a,s		
+6		1005		      		rmo		a,x		
+7		1007		EOF		BYTE		C'EOF'		
+8		1008		ALPHA		RESW		1		
+9		100b		BETA		WORD		16		
+10		100e		GAMMA		WORD		4		
+11		1011		bb		word		3		
+12		1014		      		END		prog		
+
+		*********The Code is Assembled Correctly**************

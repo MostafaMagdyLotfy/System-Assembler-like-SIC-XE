@@ -1,0 +1,10 @@
+prog     START   1000
+         +LDA    100
+         +LDX    10
+         +STA    15
+         rmo     a,s
+ALPHA    RESW    1
+BETA     WORD    16
+GAMMA    WORD    4
+bb       word    3
+         END     prog  

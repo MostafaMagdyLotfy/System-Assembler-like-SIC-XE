@@ -1,0 +1,12 @@
+prog     START   1000
+         +LDA    100
+         LDX     #205
+         +STA    @15
+         rmo     a,s
+         rmo     a,x
+EOF      BYTE    C'EOF'
+ALPHA    RESW    1
+BETA     WORD    16
+GAMMA    WORD    4
+bb       word    3
+         END     prog

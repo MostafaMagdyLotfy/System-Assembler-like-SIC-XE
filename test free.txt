@@ -1,0 +1,15 @@
+START 500 .asd
+.comment1
+AdDR A,b .2222
+tixr a .2222
+.something something
+org 1000 
+labl2 resw 5   
+.This a comment
+.This is another comment
+lda #12
+word 5 
+byte 2 .388
+byte fcg
+13123 j @123 
+this end asd .fff
